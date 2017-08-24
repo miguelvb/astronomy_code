@@ -59,3 +59,10 @@ sk_list <- c(head, sk_list)
 writeLines(sk_list, paste0(root_, "aavso_variable_binoculars.skylist"), sep="")
 
 # once parsed by sky_safary the list contains 135 stars (so 154 - 135 = 19 stars are missing...)
+# SOME ONES NOT PARSED (I had to search them manually in sky safary:)
+names_sub <- '
+"name", "repl"
+"tet Aps", "HR 5261"
+"psi 1 Aur", "psi1 Aur"
+"V0460 Cyg", "HR 8297"
+'
