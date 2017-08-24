@@ -10,7 +10,7 @@ Mainly used to extract binocular variables and passe it to sky safary obs. list 
 
 See [AAVSO](/aavso/)
 
-Sky Safary Binocular AAVSO List (19 stars are missing from the aavso list once parsed by sky safary): [aavso list](aavso/skysafary_parsed/aavso_variable_binoculars.skylist)
+Sky Safari Binocular AAVSO List (19 stars are missing from the aavso list once parsed by sky safari): [aavso list](aavso/skysafari_parsed/aavso_variable_binoculars.skylist)
 
 ## WDS SECTION
 
