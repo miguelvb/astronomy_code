@@ -16,12 +16,12 @@ Sky Safary Binocular AAVSO List (19 stars are missing from the aavso list once p
 
 WDS catalog of double stars in different formats
 
-Details about how it was made are in the main code file [wds_catalog.R](wds/Rcode(wds_catalog.R))
+Details about how it was made are in the main code file [wds_catalog.R](wds/Rcode/wds_catalog.R)
 
 Format of the WDS file can be found here: [wds format](http://ad.usno.navy.mil/wds/Webtextfiles/wdsweb_format.txt)
 
 The catalog was imported in excel making a copy-paste into sublime-text app of the web page [WDS catalog](http://ad.usno.navy.mil/wds/Webtextfiles/wdsweb_summ2.txt)
-Save the file (this file was saved here as [wds/csv/wds_catalog.txt](/csv/wds_catalog.txt)) and change the header to fit the fixed-space rows (read format in [wds format](http://ad.usno.navy.mil/wds/Webtextfiles/wdsweb_format.txt) ).
+Save the file (this file was saved here as [wds/csv/wds_catalog.txt](wds/csv/wds_catalog.txt) ) and change the header to fit the fixed-space rows (read format in [wds format](http://ad.usno.navy.mil/wds/Webtextfiles/wdsweb_format.txt) ).
 
 Then the import is done choosing the right columns separation following the format and the result is `/excel/wds_catalog.xlsx`. 
 Saving that file as csv makes possible to play with it using `R`. See code details in `/Rcode/wds_catalog.R`.   
@@ -38,7 +38,7 @@ Some links to understand better the format of those lists:
 * http://skysafariastronomy.com/support/manual/observing_lists.shtml
 * http://www.southernstars.com/support/faq/skysafari.html
 
-File [wds_catalog.R](wds/Rcode/wds_catalog.R)` will transform the csv file into a `skysafari` observation list.
+File [wds_catalog.R](wds/Rcode/wds_catalog.R) will transform the csv file into a `skysafari` observation list.
 The trick is that we only need the `WDS NAME` field (the first one) of the data-base and sky-safari will fill the information with it.
 Here is an example of an observation list with 2 stars:
 
