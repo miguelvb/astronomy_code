@@ -3,6 +3,16 @@ Astronomy Code
 
 Some scripts about Astronomy and Star Gazing...
 
+## [EXOPLANETS](/exoplanets/)
+
+Taking the list of confirmed exoplanets from [Confirmed Exoplanets NASA](https://exoplanetarchive.ipac.caltech.edu/cgi-bin/TblView/nph-tblView?app=ExoTbls&config=planets), saving as `.csv` and applying some `R` code (see [exoplanets.R](exoplanets.R) )
+
+Making some lists for sky safari:
+
+* [Exoplanets Binoculars](exoplanets/exop_binos.skylist) : magnitude <= 9 (507 stars)
+* [Exoplanets Naked Eye](exoplanets/exop_naked_eye.skylist) : magnitude <= 4 (21 stars)
+
+
 ## AAVSO SECTION
 
 This section contains code, data bases and observation lists of AAVSO variable stars.
